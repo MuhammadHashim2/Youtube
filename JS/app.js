@@ -13,4 +13,5 @@ function Cncolor3(){addEventListener("click",()=>{
 function Cncolor4(){addEventListener("click",()=>{
     document.querySelector(".four").style.backgroundColor="black";
     document.querySelector(".four").style.color="white";
-})}
+})};
+alert("Hii Welcome To The Hashim's Youtube!!!");
