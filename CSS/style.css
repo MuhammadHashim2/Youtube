@@ -1,0 +1,156 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navicon{
+    width: 40px;
+    height: 40px;
+}
+.box{
+    padding: 5px 10px 5px 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+.pk{
+    position: absolute;
+    font-size: xx-small;
+    top: 15px;
+    left: 175px;
+}
+.sidebar{
+    float: left;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    margin-top: 20px;
+    padding-right: 50px;
+}
+.dis{
+    margin-top: 3px;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    font-size: 10px;
+}
+.die{
+    margin-left: -18px;
+}
+.box:hover{
+    cursor: pointer;
+    background-color: #d3d3d3;
+}
+.navbar{
+    display: flex;
+}
+.homeicon{
+    width: 24px;
+}
+.boxes{
+    display: flex;
+    margin-top: 20px;
+}
+header{
+    width: 100%;
+    background-color: #fff;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.navicon{
+    margin: 0px 10px 10px 30px;
+}
+.logo{
+    width: 90px;
+    height: 40px;
+}
+input[type="search"]{
+    width: 478px; 
+    padding: 8px 10px 8px 20px;
+    border-radius: 40px;
+    border: 1px solid #ccc;
+    margin-left: 30%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    outline-color: #c5cae9;
+    font-size: 16px;
+    outline-width: 0.25px;
+}
+.dash{
+    margin-top: 10px;
+}
+.searchicon{
+    margin-left: 140px;
+    margin-top: 0px;
+    padding-top: 5px;
+    text-align: center;
+    border-left: none;
+    border: 1px solid #d3d3d3;
+    border-radius: 40px;
+    background-color: #f8f8f8;
+    height: 30px;
+    width: 60px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.voice{
+    margin-left: 20px;
+    border-radius: 12px;
+    height: 24px;
+    width: 24px;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #d3d3d3;
+}
+.dots{
+    margin-left: 200px;
+    margin-top: -5px;
+}
+.signin{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20px;
+    border: 1px solid #d3d3d3;
+    padding: 5px 10px 5px 10px;
+    border-radius: 40px;
+}
+a{
+    text-decoration: none;
+}
+.pro,.sin{
+    fill: #065fd4;  
+    color: #065fd4;
+}
+.pro{
+    margin-right: 5px;
+}
+.sin{
+    margin-top: 3px;
+    font-weight: 400;
+}
+.signin:hover{
+    background-color: #065fd434;
+}
+.boxxx>iframe{
+    border-radius: 16px;
+}
+.boxyy{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.boxxx{
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 50px;
+}
+div.logo{
+    cursor: pointer;
+}
+div.navicon{
+    cursor: pointer;
+}
+div.dots,div.voice,.box,.homeicon{
+    cursor: pointer;
+}
